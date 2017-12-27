@@ -2,7 +2,7 @@ package com.boot.microservice.eureka.demo.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+@EnableEurekaServer
 @SpringBootApplication
 public class EurekaServerApplication {
 
